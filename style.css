@@ -35,7 +35,7 @@ img {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row-wrapper {
   display: flex;
@@ -118,7 +118,7 @@ li {
 li > * {
   vertical-align: middle;
 }
-li>input[type="checkbox"] {
+li > input[type="checkbox"] {
   margin: 0 10px;
 }
 li > label {
@@ -128,7 +128,7 @@ li > label {
   width: 226px;
 }
 li > input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .delete img {
   height: 2em;
@@ -145,11 +145,11 @@ li > input[type="text"] {
 }
 /* Edit Task */
 li input[type=text] {
-  display: none
+  display: none;
 }
 .edit-mode input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 .edit-mode label {
   display: none;
